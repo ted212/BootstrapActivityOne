@@ -1,0 +1,43 @@
+     /* Styles de base */
+
+      nav img {
+        width: 100%;
+      }
+
+      /* Styles pour les smartphones */
+      #left, #side1, #side2 {
+        padding: 10px 10px 0 10px;
+      }
+
+      /* Ici je définis l'espace alloué pour le jumbotron / Here I define the space allocated for the jumbotron */
+      .jumbotron-fluid {
+          height: 150px;
+      }
+
+      /* Styles pour les tablettes */
+      @media (min-width: 768px) {
+        #left{
+          padding: 0;
+        } 
+        #side1 {
+          padding: 10px 5px 0 0;
+        } 
+        #side2 {
+          padding: 10px 0 0 5px;
+        }
+      }
+
+      /* Styles pour les écrans moyens et grands */
+      @media (min-width: 992px) {
+        #side1, #side2 {
+          padding: 0 0 10px 10px;
+        } 
+      }
+
+
+
+
+      /* espace entre la navigation et le footer / space between the nav and the footer */
+      nav{
+        margin-bottom: 20px;
+      }

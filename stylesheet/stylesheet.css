@@ -27,14 +27,24 @@
         }
       }
 
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 2em;
+        }
+      }
+  
+      @media (min-width: 768px) {
+        h1 {
+          font-size: 4em;
+        }
+      }
+
       /* Styles pour les écrans moyens et grands */
       @media (min-width: 992px) {
         #side1, #side2 {
           padding: 0 0 10px 10px;
         } 
       }
-
-
 
 
       /* espace entre la navigation et le footer / space between the nav and the footer */

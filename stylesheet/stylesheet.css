@@ -27,6 +27,10 @@
         }
       }
 
+      /* Je n'ai pas pu appliquer les propriétés bootstrap pour la police du h1 car display ne prends pas 
+      le responsive, pour cette raison, j'ai fait les modifications avec les media queries. / I can't apply
+      the property bootstrap for the h1 police because display don't take the responsive, for this reason,
+      I do the modification with the media queries. */
       @media (max-width: 768px) {
         h1 {
           font-size: 2em;
